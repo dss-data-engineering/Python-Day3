@@ -16,10 +16,10 @@ print("Your mission is to find the treasure.\n")
 print("You arrive at a crossroad. Which way would you like to go? Left or right?\n")
 choice = input()
 if choice == "left":
-    print("Now you've come to a lake. There is a boat tied to the shore. Will you swim or wait?\n")
+    print("Now you've come to a lake with an island in the middle. Will you swim or wait?\n")
     choice = input()
     if choice == "wait":
-        print("You arrive at a castle with three doors, one red, one blue, one yellow. Which do you choose? Or do you choose none?\n")
+        print("You arrive at a castle on the island with three doors, one red, one blue, one yellow. Which do you choose? Or do you choose none?\n")
         choice = input()
         if choice == "red":
             print("You just got burned by fire. Game over.\n")
